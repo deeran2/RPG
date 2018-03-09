@@ -16,6 +16,8 @@ rotate right: right alt/ e
 
 pick up item: left shift/ mouse wheel button
 
+open/close Inventory: i/ b
+
 unequip: u/ z
 
 click item to use;

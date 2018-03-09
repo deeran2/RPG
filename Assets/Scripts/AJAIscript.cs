@@ -88,6 +88,8 @@ public class AJAIscript : MonoBehaviour {
 
 			agent.enabled = true; 
 			agent.SetDestination (waypoints [selectedDestination].position);
+			waypoints [selectedDestination].GetComponent<DestinationScript> ().isUsed = true;
+
 			if (Vector3.Distance (waypoints [selectedDestination].position, transform.position)
 				< remainingDistance) {
 				state = "Idle";
@@ -118,7 +120,12 @@ public class AJAIscript : MonoBehaviour {
 		case 1:
 			break;
 		case 2:
+			int lastDestination = selectedDestination;
 			selectedDestination = Random.Range (0, waypoints.Length);
+			while (lastDestination == selectedDestination || waypoints [selectedDestination].GetComponent<DestinationScript> ().isUsed == true) {
+				selectedDestination = Random.Range (0, waypoints.Length);
+			}
+			waypoints [lastDestination].GetComponent<DestinationScript> ().isUsed = false;
 			state = "Walking";
 			break;
 

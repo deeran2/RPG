@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Pants
   m_EditorClassIdentifier: 
   name: Pants
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 14e8083439e0b46ff9d6b1af129fae56, type: 3}
   isDefaultItem: 1
   equipSlot: 2
   mesh: {fileID: 137656762604610652, guid: 1e7d2a9bf8a194f5ea20a0f07050938d, type: 2}

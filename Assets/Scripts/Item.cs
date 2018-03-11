@@ -8,6 +8,7 @@ public class Item : ScriptableObject {
 	public new string name = "New Item";
 	public Sprite icon = null;
 	public bool isDefaultItem = false;
+	public GameObject respawn;
 	 
 	public virtual void Use(){
 

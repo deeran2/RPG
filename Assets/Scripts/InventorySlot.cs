@@ -7,6 +7,7 @@ public class InventorySlot : MonoBehaviour {
 	public Button removeButton;
 	Item item;
 
+
 	public void AddItem (Item newItem){
 
 		item = newItem;
@@ -26,6 +27,8 @@ public class InventorySlot : MonoBehaviour {
 	//Remove button removes from inventory instance
 
 	public void OnRemoveButton(){
+		Transform temp = GameObject.FindGameObjectWithTag ("Player").transform;
+		Instantiate (item.respawn, temp.position, temp.rotation);
 		Inventory.instance.Remove (item);
 	}
 

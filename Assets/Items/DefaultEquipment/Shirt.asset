@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Shirt
   m_EditorClassIdentifier: 
   name: Shirt
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 14e8083439e0b46ff9d6b1af129fae56, type: 3}
   isDefaultItem: 1
   equipSlot: 1
   mesh: {fileID: 137469319300271110, guid: 90c6f9302894646009d2e20032c4bf5a, type: 2}

@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b2ac69b8e6ff41d3b72e7d9b1b3a500, type: 3}
-  m_Name: PlateBoots
+  m_Name: Plate Legs
   m_EditorClassIdentifier: 
-  name: Plate Boots
-  icon: {fileID: 21300000, guid: 19d3b88b8c2b143e1b0096a52abfc183, type: 3}
+  name: Plate Legs
+  icon: {fileID: 21300000, guid: 53faeecc541fb488e9bf76fae8e44159, type: 3}
   isDefaultItem: 0
-  equipSlot: 5
-  mesh: {fileID: 137251292945965304, guid: 9a408249b23614c92a9dcf45e1fc08c9, type: 2}
-  coveredMeshRegions: 
-  armorModifier: 1
+  respawn: {fileID: 1419022046322846, guid: ecca28a0c02304d6285e2cf3bc695568, type: 2}
+  equipSlot: 2
+  mesh: {fileID: 137990633585500132, guid: dc9eeaef77dd24f1fa9cedc7d2758add, type: 2}
+  coveredMeshRegions: 00000000
+  armorModifier: 3
   damageModifier: 0

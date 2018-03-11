@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b2ac69b8e6ff41d3b72e7d9b1b3a500, type: 3}
-  m_Name: BreastPlate
+  m_Name: Plate Boots
   m_EditorClassIdentifier: 
-  name: Breastplate
-  icon: {fileID: 21300000, guid: b0634f26ab8954ad39a523e0b6803cb3, type: 3}
+  name: Plate Boots
+  icon: {fileID: 21300000, guid: 19d3b88b8c2b143e1b0096a52abfc183, type: 3}
   isDefaultItem: 0
-  respawn: {fileID: 1322774201362232, guid: 10a73d64a96d84ad99a84b1b0fc00b87, type: 2}
-  equipSlot: 1
-  mesh: {fileID: 137855592456175544, guid: 7f1869d2ffc3044778e8488b5f3cc562, type: 2}
-  coveredMeshRegions: 01000000
-  armorModifier: 4
+  respawn: {fileID: 1128530130528404, guid: 3421f423d8a2e4217ba86962d0ecbb2e, type: 2}
+  equipSlot: 5
+  mesh: {fileID: 137251292945965304, guid: 9a408249b23614c92a9dcf45e1fc08c9, type: 2}
+  coveredMeshRegions: 
+  armorModifier: 1
   damageModifier: 0

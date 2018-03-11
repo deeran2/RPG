@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b2ac69b8e6ff41d3b72e7d9b1b3a500, type: 3}
-  m_Name: PlateLegs
+  m_Name: LeftHand
   m_EditorClassIdentifier: 
-  name: Plate Legs
-  icon: {fileID: 21300000, guid: 53faeecc541fb488e9bf76fae8e44159, type: 3}
-  isDefaultItem: 0
-  equipSlot: 2
-  mesh: {fileID: 137990633585500132, guid: dc9eeaef77dd24f1fa9cedc7d2758add, type: 2}
-  coveredMeshRegions: 00000000
-  armorModifier: 3
+  name: LeftHand
+  icon: {fileID: 21300000, guid: 14e8083439e0b46ff9d6b1af129fae56, type: 3}
+  isDefaultItem: 1
+  equipSlot: 4
+  mesh: {fileID: 137654682192869766, guid: b8a51b0848cf245acb28a8cbf68d84c8, type: 2}
+  coveredMeshRegions: 
+  armorModifier: 0
   damageModifier: 0

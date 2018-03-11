@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 65097204005415920}
   - component: {fileID: 114239162961794042}
   m_Layer: 0
-  m_Name: Plate_legs
+  m_Name: Plate Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EquipmentManager : MonoBehaviour {
 
 	#region Singleton
 
+	public Image[] image;
 	public static EquipmentManager instance;
 
 	void Awake(){
@@ -53,7 +55,7 @@ public class EquipmentManager : MonoBehaviour {
 		}
 
 		currentEquipment [slotIndex] = newItem;
-
+		image[slotIndex].sprite = currentEquipment[slotIndex].icon;
 		SetEquipmentBlendShapes (newItem, 100);
 		SkinnedMeshRenderer newMesh = Instantiate<SkinnedMeshRenderer> (newItem.mesh);
 		newMesh.transform.parent = targetMesh.transform;
@@ -112,5 +114,9 @@ public class EquipmentManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.U)) {
 			UnequipAll ();
 		}
+	}
+	public void EquipmentButton(int slot){
+		Unequip (slot);
+		Equip (defaultItems [slot]);
 	}
 }

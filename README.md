@@ -1,20 +1,17 @@
 # TestAI
 Controls:
 
-move forward: up arrow/ w
+move forward/back: "Vertical" keys
 
-move back: down arrow/ s
+rotate left/right: "Horizontal" keys
 
-move left: left arrow/ a
+camera left: right command/ q
 
-move right: right arrow/ d
+camera right: right alt/ e
 
-rotate left: right command/ q
+attack: "Fire1"
 
-rotate right: right alt/ e
-
-
-pick up item: left shift/ mouse wheel button
+pick up item: "Fire3"
 
 open/close Inventory: i/ b
 

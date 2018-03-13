@@ -1330,52 +1330,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 337375556}
---- !u!1001 &353497303
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.263
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4610830047362840, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1899827836311696, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-      propertyPath: m_Name
-      value: Health Potion (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &380058239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,7 +1818,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_Controller
@@ -2542,7 +2496,7 @@ Transform:
   - {fileID: 546887460}
   - {fileID: 265281828}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &668662838
 Prefab:
@@ -3131,7 +3085,7 @@ Transform:
   - {fileID: 548735772}
   - {fileID: 1881654617}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &762030757
 Prefab:
@@ -3552,7 +3506,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_Controller
@@ -4020,6 +3974,19 @@ Prefab:
         type: 2}
       propertyPath: style.m_Normal.m_TextColor.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080036665065294, guid: a33a158d2d3ed4a239808767af158f72, type: 2}
+      propertyPath: m_Name
+      value: HealthExpGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 114517159808729412, guid: a33a158d2d3ed4a239808767af158f72,
+        type: 2}
+      propertyPath: expSlider
+      value: 
+      objectReference: {fileID: 227411837}
+    - target: {fileID: 1080036665065294, guid: a33a158d2d3ed4a239808767af158f72, type: 2}
+      propertyPath: m_TagString
+      value: Health
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a33a158d2d3ed4a239808767af158f72, type: 2}
@@ -4946,6 +4913,34 @@ Transform:
   m_Father: {fileID: 663480627}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1421002299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1421002300}
+  m_Layer: 0
+  m_Name: LootSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421002300
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421002299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1797364774}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1466234751
 GameObject:
   m_ObjectHideFlags: 0
@@ -5052,7 +5047,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4946222788169438, guid: ecca28a0c02304d6285e2cf3bc695568, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1419022046322846, guid: ecca28a0c02304d6285e2cf3bc695568, type: 2}
       propertyPath: m_Name
@@ -6192,6 +6187,10 @@ MonoBehaviour:
   - {fileID: 2009264088}
   - {fileID: 548735772}
   - {fileID: 1881654617}
+--- !u!4 &1797364774 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
+  m_PrefabInternal: {fileID: 2123418410}
 --- !u!114 &1797364775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6207,6 +6206,10 @@ MonoBehaviour:
   armor: 0
   expGiven: 5
   Exp: {fileID: 227411837}
+  lootSpawn: {fileID: 1421002300}
+  loot:
+  - {fileID: 1899827836311696, guid: 289c81e1a108945b19caaae6c3b356f2, type: 2}
+  - {fileID: 1187135950541996, guid: ad2ad7dd215fa49a68d287dedfb98f87, type: 2}
 --- !u!136 &1797364776
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7109,7 +7112,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 63c42d911d01d481bb48b9b564b54ebe, type: 3}
       propertyPath: m_Controller

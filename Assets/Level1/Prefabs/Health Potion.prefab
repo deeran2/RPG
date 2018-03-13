@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23828523173824288}
   - component: {fileID: 135830448750500712}
   - component: {fileID: 114500832224526998}
+  - component: {fileID: 54939099699418674}
   m_Layer: 0
   m_Name: Health Potion
   m_TagString: Untagged
@@ -85,6 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1899827836311696}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54939099699418674
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1899827836311696}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &114500832224526998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd1b0aba62e64ffe945fba2e5c0118f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 3a43e808fc8554602b52a05bd9c3eeb9, type: 2}
+  item: {fileID: 11400000, guid: dd137aeece7c84df7970a8fd68b9431f, type: 2}
 --- !u!135 &135039904118302754
 SphereCollider:
   m_ObjectHideFlags: 1
